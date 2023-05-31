@@ -1,0 +1,177 @@
+body{
+    background-color: black;
+    color: white;
+    overflow-y: auto;
+}
+
+.sidebar {
+    width: 250px;
+    position: fixed;
+    bottom: 0;
+  }
+  .profil{
+    margin-left: 5rem;
+    border-radius: 25px;
+    padding-left: 6px;
+    margin-bottom: 2rem;
+  }
+  .profil:hover{
+    background-color: #1e1e1e;
+  }
+  .profil img{
+    margin-top: 20px;
+}
+
+
+.bookmarks{
+    font-size: 28px;
+    position: fixed;
+    width: 250px;
+    bottom: 0;
+    margin-bottom: 15rem;
+    margin-left: 6rem;
+}
+
+.profile{
+    font-size: 28px;
+    position: fixed;
+    width: 250px;
+    bottom: 0;
+    padding-bottom: 20px;
+    margin-left: 6rem;
+    margin-bottom: 18rem;
+  }
+  .logo{
+    position: fixed;
+    width: 250px;
+    top: 0;
+    bottom: 0;
+    margin-left: 9rem;
+    margin-top: 2rem;
+  }
+
+  .logo img{
+        width: 30%; /* membuat gambar memenuhi lebar parent element */
+        height: auto; /* menjaga proporsi asli gambar */
+        max-width: 900px; /* menetapkan ukuran maksimum gambar menjadi 500px */
+        max-height: 900px; 
+  }
+  .bookmarks img{
+    width: 20%; /* membuat gambar memenuhi lebar parent element */
+    height: auto; /* menjaga proporsi asli gambar */
+    max-width: 900px; /* menetapkan ukuran maksimum gambar menjadi 500px */
+    max-height: 900px; 
+  }
+  .profile img{
+    width: 20%; /* membuat gambar memenuhi lebar parent element */
+    height: auto; /* menjaga proporsi asli gambar */
+    max-width: 900px; /* menetapkan ukuran maksimum gambar menjadi 500px */
+    max-height: 900px; 
+  }
+
+  .trending{
+    margin-top: 2rem;
+    position: fixed;
+  }
+
+  #konten{
+    border: none;
+    background-color:black;
+  }
+  .create-post{
+    background-color: #1e1e1e;
+    padding:20px;
+  }
+  .input-area {
+    margin-bottom: 20px;
+    width: 550px;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    border: 2px solid #1e1e1e;
+    border-radius: 8px;
+  }
+  
+  .profile-picture {
+    margin-right: 10px;
+  }
+  
+  .profile-picture img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .input-wrapper {
+    background-color: black;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+
+  .input-wrapper textarea {
+    resize: none;
+    width: 100%;
+    background-color:black;
+    color: white;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .input-wrapper textarea::placeholder {
+    color: #999;
+  }
+  
+  .add-photo {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .add-photo-label {
+    color: white;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+
+  
+  .add-photo-label:hover {
+    text-decoration: none;
+  }
+  
+  .add-photo input[type="file"] {
+    display: none;
+  }
+  
+  .post-button {
+    align-self: flex-end;
+    margin-top: 8px;
+    padding: 8px 16px;
+    background-color: #1e1e1e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .post-button:hover {
+    background-color: black;
+  }
+  
+ .kategori select{
+  background-color: #1e1e1e;
+  color:white;
+  border-radius: 5px;
+ }
+
+ #judul{
+  background-color: black;
+  border: 2px solid black;
+  outline: none;
+  color: white;
+ }
+
